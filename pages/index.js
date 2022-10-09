@@ -1,8 +1,8 @@
 import Head from 'next/head'
 
-import { BsFillMoonStarsFill } from 'react-icons/bs'
+// import { BsFillMoonStarsFill } from 'react-icons/bs'
 
-import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai'
+// import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai'
 import Image from "next/image";
 import deved from '../public/dev-ed-wave.png'
 import sal from '../public/sal.jpeg'
@@ -43,7 +43,7 @@ export default function Home() {
             <h1 className='text-xl font-burtons'>Salvador g Salazar</h1>            
               <ul className='flex items-center'>
                 <li>
-                    <BsFillMoonStarsFill onClick={()=>setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:text-teal-500'/>
+                    {/* <BsFillMoonStarsFill onClick={()=>setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:text-teal-500'/> */}
                 </li>
                 <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'  href='#'>Resume</a></li>
               </ul>
@@ -66,9 +66,9 @@ export default function Home() {
           </div>
        
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
-              <AiFillTwitterCircle />
+              {/* <AiFillTwitterCircle />
               <AiFillLinkedin />
-              <AiFillYoutube />
+              <AiFillYoutube /> */}
           </div>
             <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full  w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
                       <Image src={sal} layout="fill" objectFit="cover" />
