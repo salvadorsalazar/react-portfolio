@@ -66,12 +66,12 @@ export default function Home() {
           </div>
        
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
-              <AiFillTwitterCircle />
-              <AiFillLinkedin />
-              <AiFillYoutube />
+              <AiFillTwitterCircle alt="alt"/>
+              <AiFillLinkedin alt="alt"/>
+              <AiFillYoutube alt="alt"/>
           </div>
             <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full  w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
-                      <Image src={sal} layout="fill" objectFit="cover" />
+                      <Image src={sal} alt="alt" layout="fill" objectFit="cover" />
             </div>
           
         </section>
@@ -111,7 +111,7 @@ export default function Home() {
           <div className='lg:flex gap-10 dark:text-teal-500'>
 {/* above make cards fill correctlt as a media query */}
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
-              <Image src={design} width={100} height={100} />
+              <Image src={design}alt="alt" width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
               <p className='py-2'>creating elegant designs suited fir your needs while follwoing degin theory
               </p>
@@ -124,7 +124,7 @@ export default function Home() {
 
             
                <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white dark:text-teal-500'>
-              <Image src={code} width={100} height={100} />
+              <Image src={code}alt="alt" width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
               <p className='py-2'>creating elegant designs suited fir your needs while follwoing degin theory
               </p>
@@ -136,7 +136,7 @@ export default function Home() {
             </div> 
 
                <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting}alt="alt" width={100} height={100} />
               <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
               <p className='py-2'>creating elegant designs suited fir your needs while follwoing degin theory
               </p>
@@ -178,13 +178,13 @@ export default function Home() {
           
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
 
-            <div className='basis-1/3 flex-1'><Image src={web1} className='rounded-lg object-cover' width={'100%'} height=
+            <div className='basis-1/3 flex-1'><Image src={web1} alt="alt"   className='rounded-lg object-cover' width={'100%'} height=
               {'100%'} layout='responsive'/></div>
-            <div className='basis-1/3 flex-1'><Image src={web2} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div>
-            <div className='basis-1/3 flex-1'><Image src={web3} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div>
-            <div className='basis-1/3 flex-1'><Image src={web4} classNamer='ounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div>
-            <div className='basis-1/3 flex-1'><Image src={web5} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div>
-            <div className='basis-1/3 flex-1'><Image src={web6} className='rounded-lg object-cover'  width={'100%'} height={'100%'} layout='responsive'/></div>
+            <div className='basis-1/3 flex-1'><Image src={web2}alt="alt"  className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div>
+            <div className='basis-1/3 flex-1'><Image src={web3}alt="alt" className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div>
+            <div className='basis-1/3 flex-1'><Image src={web4}alt="alt" classNamer='ounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div>
+            <div className='basis-1/3 flex-1'><Image src={web5}alt="alt" className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div>
+            <div className='basis-1/3 flex-1'><Image src={web6}alt="alt" className='rounded-lg object-cover'  width={'100%'} height={'100%'} layout='responsive'/></div>
 
 
 
