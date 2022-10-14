@@ -69,8 +69,8 @@ Salvador Salazar            </h2>
               <AiFillLinkedin />
               <AiFillYoutube />
             </div>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative object-position: 50% 50%; overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={sal} layout="fill" objectFit="cover" />
+            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative object-position: 50% 50% overflow-hidden mt-20 md:h-96 md:w-96">
+              <Image src={sal} className="max-auto" layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
