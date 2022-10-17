@@ -179,6 +179,7 @@ Salvador Salazar            </h2>
                 />
                 </a>
             </div>
+            <h3>Example 1</h3>
             <div className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
@@ -188,6 +189,8 @@ Salvador Salazar            </h2>
                 src={web3}
               />
             </div>
+                        <h3>Example 2</h3>
+
             <div className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
@@ -197,6 +200,8 @@ Salvador Salazar            </h2>
                 src={web4}
               />
             </div>
+                        <h3>Example 3</h3>
+
             <div className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
@@ -206,6 +211,9 @@ Salvador Salazar            </h2>
                 src={web5}
               />
             </div>
+
+                        <h3>Example 4</h3>
+
             <div className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
