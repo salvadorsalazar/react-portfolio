@@ -6,7 +6,6 @@ import {
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-// import deved from "../public/dev-ed-wave.png";
 import sal from "../public/sal.jpeg";
 import calc from "../public/calculator.png";
 import lara from "../public/lara.png";
