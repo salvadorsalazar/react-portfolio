@@ -82,8 +82,10 @@ Salvador Salazar            </h2>
           
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+
             <div className="basis-1/3 flex-1 ">
-             
+                         <p className="text-xl py-1 dark:text-white ">Fully functional Calculator bult using React.js</p>
+
              <a href="https://salvadorsalazar.github.io/react-calculator" target="_blank">
               <Image
                 className="rounded-lg object-cover"
@@ -96,7 +98,9 @@ Salvador Salazar            </h2>
                 </a>
             </div>
             <div className="basis-1/3 flex-1">
-<a href="https://github.com/salvadorsalazar/sitesPHP/tree/master/laragigs" target={"_blank"}>
+                                       <p className="text-xl py-1 dark:text-white ">Job Posting website based on PHP Laravel.Database used is MySql and styled with Tailwind Css. Login and Registration pages are authenticated </p>
+
+<a href="https://github.com/salvadorsalazar/sitesPHP/tree/master/laragigs" target="_blank">
 
               <Image
                 className="rounded-lg object-cover"
