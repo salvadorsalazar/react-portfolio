@@ -78,13 +78,18 @@ Salvador Salazar            </h2>
       
         <section className="py-10">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
+            <h3 className="text-center text-3xl py-1 dark:text-white ">Portfolio</h3>
           
           </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+          <div className="flex flex-col gap-20 py-10 lg:flex-row lg:flex-wrap">
 
             <div className="basis-1/3 flex-1 ">
-                         <p className="text-xl py-1 dark:text-white ">Fully functional Calculator bult using React.js</p>
+              {/* <div>  <p className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8">Fully functional Calculator bult using React.js</p></div> */}
+              <div className="py-5"> <p className=" text-center bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md">Basic Calculator built with React.js .<br></br><br></br><br></br>
+              
+              
+              </p></div>
+
 
              <a href="https://salvadorsalazar.github.io/react-calculator" target="_blank">
               <Image
@@ -97,8 +102,10 @@ Salvador Salazar            </h2>
                 
                 </a>
             </div>
+
+            
             <div className="basis-1/3 flex-1">
-                                       <p className="text-xl py-1 dark:text-white ">Job Posting website based on PHP Laravel.Database used is MySql and styled with Tailwind Css. Login and Registration pages are authenticated </p>
+                                      <div className="py-5"> <p className=" text-center bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md">Job Posting website based on PHP Laravel.Database used is MySql and styled with Tailwind Css. Login and Registration pages are authenticated </p></div>
 
 <a href="https://github.com/salvadorsalazar/sitesPHP/tree/master/laragigs" target="_blank">
 
@@ -111,7 +118,13 @@ Salvador Salazar            </h2>
                 />
                 </a>
             </div>
+
             <div className="basis-1/3 flex-1">
+
+              <div className="py-5"> <p className=" text-center bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md">Placeholder<br></br><br></br><br></br>
+              
+              
+              </p></div>
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -120,7 +133,12 @@ Salvador Salazar            </h2>
                 src={web3}
               />
             </div>
+
             <div className="basis-1/3 flex-1">
+              <div className="py-5"> <p className=" text-center bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md">Placeholder<br></br><br></br><br></br>
+              
+              
+              </p></div>
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -129,7 +147,14 @@ Salvador Salazar            </h2>
                 src={web4}
               />
             </div>
+
+
             <div className="basis-1/3 flex-1">
+
+              <div className="py-5"> <p className=" text-center bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md">Placeholder<br></br><br></br><br></br>
+              
+              
+              </p></div>
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -138,7 +163,13 @@ Salvador Salazar            </h2>
                 src={web5}
               />
             </div>
+
             <div className="basis-1/3 flex-1">
+
+              <div className="py-5"> <p className=" text-center bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md">Placeholder<br></br><br></br><br></br>
+              
+              
+              </p></div>
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
