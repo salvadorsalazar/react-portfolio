@@ -128,9 +128,9 @@ Salvador Salazar            </h2>
               
               </p></div>
 
-<a href="https://github.com/salvadorsalazar/poke-app" target="_blank">
-
-
+<a href="https://poke-app-2buu.vercel.app/" target="_blank">
+{/*  */}
+{/*  poke needs updating*/}
 
               <Image
                 className="rounded-lg object-cover"
