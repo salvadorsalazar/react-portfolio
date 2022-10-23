@@ -3,6 +3,8 @@ import {
   AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillYoutube,
+  AiFillGithub,
+  AiFillGoogleCircle,
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
@@ -39,7 +41,21 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900   md:px-10 lg:px-40 overflow-x-auto">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons text-xl">Sal Salazar</h1>
+            {/* <h1 className="font-burtons text-5xl">              <a href="https://www.linkedin.com/in/salvador-salazar-73a45a21b/"><AiFillLinkedin /></a>
+         <a href="https://github.com/salvadorsalazar"><AiFillGithub /></a>
+</h1> */}
+            
+
+  <div className="text-5xl flex justify-center gap-10 py-3 text-gray-600 dark:text-gray-400">
+              <AiFillGoogleCircle />
+              <a href="https://www.linkedin.com/in/salvador-salazar-73a45a21b/"><AiFillLinkedin /></a>
+         <a href="https://github.com/salvadorsalazar"><AiFillGithub /></a>
+
+
+            </div>
+
+
+
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -50,7 +66,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#"
+                  href="https://docs.google.com/document/d/1X6HUD6GMnIVtcfuX7DcKfA1CWw21R9i6SPVegIcus3g/edit"
                 >
                   Resume
                 </a>
@@ -68,11 +84,11 @@ Salvador Salazar            </h2>
 
 📕 Skills: Javascript, HTML, CSS, Bootstrap, JQuery, Java, MySQL, Spring Boot, React.js , Next.js, C++ , C# , PHP Laravel . Exposure to: AWS ,Python
             </p>
-            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
+            {/* <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <AiFillTwitterCircle />
-              <AiFillLinkedin />
+              <a href="https://www.linkedin.com/in/salvador-salazar-73a45a21b/"><AiFillLinkedin /></a>
               <AiFillYoutube />
-            </div>
+            </div> */}
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative object-position: 50% 50% overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={sal} className="max-auto" layout="fill" objectFit="cover" />
             </div>
