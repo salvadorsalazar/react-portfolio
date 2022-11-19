@@ -195,20 +195,7 @@ Salvador Salazar            </h2>
               /></a>
             </div>
 
-            {/* <div className="basis-1/3 flex-1">
-
-              <div className="py-5"> <p className=" text-center bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md">Placeholder<br></br><br></br><br></br>
-              
-              
-              </p></div>
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web6}
-              />
-            </div> */}
+           
           </div>
         </section>
       </main>
