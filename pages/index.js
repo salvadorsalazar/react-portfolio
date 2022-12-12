@@ -45,6 +45,8 @@ export default function Home() {
          <a href="https://github.com/salvadorsalazar"><AiFillGithub /></a>
 </h1> */}
             
+            {/* needs updating fr */}
+            
 
   <div className="text-5xl flex justify-center gap-10 py-3 text-gray-600 dark:text-gray-400">
               <AiFillGoogleCircle />
